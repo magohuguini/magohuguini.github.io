@@ -2,7 +2,7 @@
 
 Web preparada para [magohuguini.github.io](https://magohuguini.github.io/).
 
-Rediseño basado en la propuesta A: fondo carbón, acentos azul claro, titulares con serif y fotografías reales de Hugo y su público. Los textos tienen un tono cercano y desenfadado, y destacan su formación en la Gran Escuela de Magia Ana Tamariz. El sitio es HTML, CSS y JavaScript: no necesita WordPress, plugins, una base de datos, un plan de pago ni un proceso de compilación.
+Contiene la portada, la historia, las fotografías y los vídeos de la web anterior, adaptados para funcionar en GitHub Pages. El sitio es HTML, CSS y JavaScript: no necesita WordPress, plugins, una base de datos, un plan de pago ni un proceso de compilación.
 
 ## Publicación
 
@@ -14,8 +14,8 @@ Después de guardar cambios en `main`, GitHub Pages publica una versión nueva. 
 
 | Qué quieres cambiar | Archivo |
 | --- | --- |
-| Portada, presentación, espectáculo y fotos de actuaciones | `index.html` |
-| Biografía, formación y fotos de la historia | `mi-historia/index.html` |
+| Portada, cifras, presentación y tarjetas de espectáculos | `index.html` |
+| Biografía, edad, formación y fotos de la historia | `mi-historia/index.html` |
 | Página de contacto | `contacta/index.html` |
 | Información de privacidad | `contacta/politica-de-privacidad/index.html` |
 | Información legal | `contacta/aviso-legal/index.html` |
@@ -29,22 +29,7 @@ Para sustituir una foto sin editar HTML, sube la nueva imagen con el mismo nombr
 
 Para cambiar un vídeo, reemplaza su identificador tanto en `data-video-id` como en el enlace `youtube.com/watch?v=…` de la página. Los identificadores actuales son `4uBczNQgl70` (Inicio) y `2Pw9lJhJRqQ` (Mi historia).
 
-El teléfono y el correo aparecen en las páginas de contacto, privacidad y aviso legal, además de la portada. Si cambian, busca el valor anterior en todo el repositorio. Actualiza también `data-phone` y `data-email` del formulario de contacto. `data-phone` utiliza el prefijo internacional sin `+` ni espacios.
-
-## Fotografías del rediseño
-
-Se han incorporado cuatro fotografías nuevas, conservando sus archivos originales y usando CSS para encuadrarlas. La toma alternativa del salón (`IMG_7056.jpeg`) no se utiliza. La elegida es `IMG_7061.jpeg`, donde se aprecia mejor a Hugo y las reacciones del público.
-
-| Archivo en la web | Fotografía de origen | Dónde aparece |
-| --- | --- | --- |
-| `huguini-magia-en-salon.jpg` | `IMG_7061.jpeg` | Portada y vista previa al compartir |
-| `huguini-comunion.jpg` | `IMG_7091.jpeg` | Galería de actuaciones |
-| `huguini-magia-en-plaza.jpg` | `1a22b194-5f77-4663-a012-b7736d3091eb.jpeg` | Galería de actuaciones |
-| `huguini-recuerdo-auditorio.jpg` | `7BFF315C-A006-435D-BFB8-3ED11797C73C.jpeg` | Mi historia |
-
-La galería combina estas fotos con material de la web anterior. Se conserva una única fotografía del encuentro con fondo azul, `mi-historia-foto-05.jpg`. Las nuevas `IMG_6749.jpeg` e `IMG_7873.jpeg` quedaron pendientes de incorporación al agotarse el tiempo de subida; no hay enlaces a archivos ausentes. Los archivos de la web anterior se conservan aunque algunos no formen parte del nuevo diseño.
-
-Los retratos acompañados se presentan como recuerdos de espectáculos; no se atribuyen nombres, relaciones docentes ni avales a partir de las fotografías.
+El teléfono y el correo aparecen en las páginas de contacto, privacidad y aviso legal, además de la portada. Si cambian, busca el valor anterior en todo el repositorio. Actualiza también `data-phone` y `data-email` de los dos formularios. `data-phone` utiliza el prefijo internacional sin `+` ni espacios.
 
 ## Cómo funciona el contacto
 
